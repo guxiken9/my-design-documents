@@ -168,12 +168,4 @@ INSERT INTO product VALUES (1, '電気ケトル', '{"color": "red", "power": 100
 * **なんでも柔軟にしたいからEAVにする**のは、
   ➤ ✕ **中長期で高コストな設計になる可能性大**
 
----
 
-必要に応じて：
-
-* ORMやフレームワークでの実装例（Hibernate, JPA, MyBatis等）
-* JSONBインデックス設計例（PostgreSQL）
-* ビュー・ETL・マテリアライズドビューによるEAVの補強方法
-
-などもご提供可能です。お気軽にお申し付けください。
