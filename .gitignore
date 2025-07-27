@@ -1,0 +1,60 @@
+# OS生成ファイル
+.DS_Store
+Thumbs.db
+
+# IDE / エディタ
+*.swp
+*.swo
+*.swn
+*.swm
+.vscode/
+.idea/
+*.iml
+
+# ビルド成果物
+/dist
+/build
+/out
+/target
+/bin
+/obj
+
+# 依存関係
+node_modules/
+vendor/
+*.lock
+*.log
+
+# 環境変数・機密情報
+.env
+.env.*
+!.env.example  # 例として残したい場合
+
+# キャッシュや一時ファイル
+*.tmp
+*.temp
+*.cache
+*.bak
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# コンパイル済みファイル
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.pyc
+*.pyo
+__pycache__/
+
+# テスト結果
+coverage/
+.junit/
+
+# その他
+*.zip
+*.tar
+*.tar.gz
